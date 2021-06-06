@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login tests Should render correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginLeft": 45,
+        "marginRight": 45,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "height": 335,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/logo.png",
+        }
+      }
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    />
+  </View>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="name-phone-pad"
+    onChangeText={[Function]}
+    placeholder="username"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#f7f7f7",
+          "borderRadius": 10,
+          "height": 46,
+          "marginBottom": 21,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "shadowColor": "rgba(0, 0, 0, 0.09)",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": -4,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 18,
+          "width": "100%",
+        },
+      ]
+    }
+    testID="usernameInput"
+    textContentType="username"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="password"
+    rejectResponderTermination={true}
+    secureTextEntry={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#f7f7f7",
+          "borderRadius": 10,
+          "height": 46,
+          "marginBottom": 21,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "shadowColor": "rgba(0, 0, 0, 0.09)",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": -4,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 18,
+          "width": "100%",
+        },
+      ]
+    }
+    testID="passwordInput"
+    textContentType="password"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignSelf": "flex-end",
+          "color": "#000",
+          "fontSize": 13,
+        },
+      ]
+    }
+  >
+    forgot password?
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "marginLeft": 40,
+          "marginRight": 40,
+          "marginTop": 38,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#323232",
+          "borderRadius": 10,
+          "height": 46,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "rgba(0, 0, 0, 0.09)",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": -4,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 18,
+        }
+      }
+      testID="loginButton"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontSize": 15,
+            },
+          ]
+        }
+      >
+        LogIn
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "color": "#969696",
+          "fontSize": 15,
+          "marginTop": 21,
+        },
+      ]
+    }
+  >
+    Don’t have an account,
+     
+    <Text
+      onPress={[Function]}
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 15,
+          },
+        ]
+      }
+    >
+      Sign Up
+    </Text>
+     
+    now.
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 18,
+          "fontWeight": "900",
+          "lineHeight": 21,
+          "marginTop": 64,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Or
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+          "marginLeft": 40,
+          "marginRight": 40,
+          "marginTop": 18,
+        },
+      ]
+    }
+  >
+    <Icon
+      name="google"
+      size={40}
+    />
+    <Icon
+      name="flickr-with-circle"
+      size={40}
+    />
+    <Icon
+      name="facebook"
+      size={40}
+    />
+  </View>
+</View>
+`;
